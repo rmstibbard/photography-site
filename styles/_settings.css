@@ -1,0 +1,44 @@
+/********** Web fonts **********/
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+:root {
+    --darkgrey: #4a4a4a;
+    --lightgrey: #b2b5ba;
+    --salmon: #ff6a7c;
+    --blue: #41cadd;
+    --lightbrown: #fff0e9;
+    --white: #ffffff;
+    --black: #000;
+
+    --brandColour1: var(--darkgrey);
+    --brandColour2: var(--lightgrey);
+    --brandColour3: var(--salmon);
+    --brandColour4: var(--blue);
+    --brandColour5: var(--lightbrown);
+    --brandColour6: var(--white);
+    --brandColour7: var(--black);
+
+    --plainFont: Nunito, sans-serif;
+    --fancyFont: Pacifico, cursive;
+
+    --brandFont1: var(--plainFont);
+    --brandFont2: var(--fancyFont);
+}
+
+h1,
+h2,
+div,
+p,
+button,
+label,
+textarea,
+input {
+    display: block;
+}

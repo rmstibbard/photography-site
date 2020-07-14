@@ -1,0 +1,27 @@
+@media screen and (max-width: 699px) {
+    .gallery__image {
+        width: 90%;
+        display: block;
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 300px;
+        grid-gap: 2rem;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .gallery__image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .span-two {
+        grid-row: span 2;
+    }
+}

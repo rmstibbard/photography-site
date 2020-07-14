@@ -1,0 +1,10 @@
+.sp-hero-container {
+    display: flex;
+    background-color: var(--brandColour5);
+    width: 100%;
+    height: 200px;
+}
+
+h2.sp-hero {
+    margin: auto;
+}

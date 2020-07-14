@@ -1,0 +1,49 @@
+body {
+    font-family: var(--brandFont1);
+    font-size: 16px;
+}
+
+.fp-hero-heading {
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+}
+
+h2.fp-hero-heading .highlight {
+    font-family: var(--fancyFont);
+    color: var(--blue);
+    font-weight: normal;
+}
+nav li {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+.top-nav h1 {
+    font-family: var(--brandFont2);
+    font-size: 3rem;
+}
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.card__date-posted,
+.article__date-posted,
+.article__posts-text,
+.article__comments-text {
+    font-size: 0.7rem;
+}
+
+.card__continue-reading a {
+    color: var(--brandColour4);
+}
+
+a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: var(--brandColour7);
+}

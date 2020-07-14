@@ -1,0 +1,44 @@
+@media screen and (min-width: 800px) {
+    .top-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .top-nav ul {
+        margin-left: auto;
+    }
+    .top-nav h1 {
+        padding-top: 40px;
+    }
+    .top-nav li {
+        display: inline-block;
+        margin: 0 30px 10px 0;
+    }
+    .search {
+        width: 55px;
+        height: 55px;
+        background-color: var(--brandColour5);
+        background-image: url("../my-icons/search.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 28px;
+        margin: 80px 10px 0 30px; /* A bit of a hack? */
+    }
+    .mobile-menu {
+        display: none;
+    }
+}
+@media screen and (max-width: 799px) {
+    .top-nav ul {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+}

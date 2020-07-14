@@ -1,0 +1,20 @@
+.button--std {
+    width: 277px;
+    height: 79px;
+    background-color: var(--brandColour3);
+    color: var(--brandColour6);
+    font-size: 1.1rem;
+}
+
+.button--alt {
+    background-color: var(--brandColour4);
+    color: var(--brandColour6);
+}
+
+.card__button,
+.article__button {
+    padding: 5px 20px;
+    border: 0;
+    outline: 0;
+    margin-top: 10px;
+}

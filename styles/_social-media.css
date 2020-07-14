@@ -1,0 +1,27 @@
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.social-media-icon {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: #fff0e9;
+    border-radius: 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+.social-media-icon.twitter {
+    background-image: url("../my-icons/twitter.png");
+}
+.social-media-icon.instagram {
+    background-image: url("../my-icons/instagram.png");
+}
+.social-media-icon.facebook {
+    background-image: url("../my-icons/facebook.png");
+}
+.social-media-icon.youtube {
+    background-image: url("../my-icons/youtube.png");
+}
